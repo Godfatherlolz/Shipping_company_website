@@ -1,0 +1,51 @@
+<?php
+
+class cot_mar {
+
+
+	private $idcm;
+	private $nbr;
+	private $poids;
+	private $type;
+  private $gerbable;
+
+
+
+
+	public function __construct($idcm,$nbr,$poids ,$type,$gerbable)
+	{
+
+
+			$this->$idcm=$idcm;
+		  $this->$nbr=$nbr;
+			$this->$poids=$poids;
+			$this->$type=$type;
+			$this->$gerbable=$gerbable;
+
+
+	}
+
+
+	public function getidcm(){
+		return $this->$idcm;
+	}
+	public function getnbr(){
+		return $this->$nbr;
+	}
+	public function getpoids(){
+		return $this->$poids;
+	}
+	public function gettype(){
+		return $this->$type;
+	}
+	public function getgerbable(){
+		return $this->$gerbable;
+	}
+
+
+	}
+
+	/*setters*/
+
+}
+?>
